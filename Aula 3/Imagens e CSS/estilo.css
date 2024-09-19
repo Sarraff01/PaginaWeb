@@ -12,10 +12,32 @@ body{
 .card{
     margin: 16px 16px;
     background-color: black;
-
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 96px);
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.637);
+}
+.card-conteudo{
+    text-align: center;
+    background-color: gray;
+    height: 100%;
+    border-radius: 20px;
+}
+.card-conteudo h3{
+    background-color: rgb(66, 66, 66);
+    border: 2px solid rgb(43, 255, 0);
+    border-radius: 15px;
+    font-size: 16px;
+    text-align: left;
+    padding: 16px;
+    position: absolute;
+    margin: 9px;
+    color: rgb(43, 255, 0);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
 }
 
-footer{
+footer{ 
     background-color: rgb(43, 255, 0);
     bottom: 0;
     position: fixed;
