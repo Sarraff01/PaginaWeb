@@ -1,0 +1,59 @@
+body{
+    font-family: "Poppins";
+    background-image: url('https://i.im.ge/2024/09/20/kM02vT.bg-desktop.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+
+}
+
+#container{
+    display: flex;
+}
+
+.card{
+    margin: 16px 16px;
+    background-color: rgba(255, 255, 255, 0.616);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 96px);
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.637);
+}
+.card-conteudo{
+    text-align: center;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 40px;
+    color: rgb(9, 51, 0)
+
+}
+.card-conteudo h3{
+    background-color: rgb(66, 66, 66);
+    border: 2px solid rgb(43, 255, 0);
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    margin: 7px;
+    color: rgb(43, 255, 0);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.637);
+    top: 30px;
+
+}
+
+footer{ 
+    background-color: rgb(43, 255, 0);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: 2em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0.8em;
+}
