@@ -10,11 +10,12 @@ body{
 #container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 48px;
 }
 
 .card{
     margin: 16px 16px;
-
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 96px);
@@ -49,10 +50,7 @@ body{
     padding: 10px;
     position: absolute;
     margin: 20px;
-
     color: rgb(16, 97, 0);
-
-
     backface-visibility: hidden;
 
 }
