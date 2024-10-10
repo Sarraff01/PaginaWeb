@@ -12,5 +12,12 @@ function criaCard(categoria, pergunta, resposta) {
       <p> ${resposta}</p>
     </div>
     `
+
+  let respostaEstaVisivel = false
+
+  function virarCard () {
+    respostaEstaVisivel = !respostaEstaVisivel
+  }
+
     container.appendChild (card)
 }
