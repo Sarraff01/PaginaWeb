@@ -41,6 +41,7 @@ body{
 
     color: rgb(16, 97, 0);
     font-weight: 700;
+    
 
 }
 
@@ -58,14 +59,11 @@ body{
 
 }
 
-.card-pergunta p {
-    padding: 150px;
 
-}
-.card-conteudo p {
+/*.card-conteudo p {
     margin-top: -92px;
 }
-
+*/
 
 .card:hover .card-conteudo{
     transform: rotateY(180deg);
@@ -95,13 +93,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
 footer{ 
     background-color: rgb(43, 255, 0);
     bottom: 0;
@@ -117,3 +108,27 @@ footer p {
     margin-top: 0.8em;
 }
  
+
+/* código omitido */
+
+@media (max-width: 560px) {
+
+    body {
+        background: url('https://i.im.ge/2024/10/18/kAG6e9.bg-mobile.jpeg');
+    }
+    
+    .card{
+        flex: 1 0 calc(100% - 1rem);
+    }
+    
+    .card-conteudo h3 {
+        font-size: 20px;
+    }
+    
+    .card-conteudo p {
+        font-size: 3.8vw;
+    }
+    .card-pergunta {
+        margin-top: 100px;
+    }
+}

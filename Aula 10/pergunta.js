@@ -6,7 +6,7 @@ criaCard(
 
 criaCard(
     'Programação',
-    'O que é CSS',
+    'O que é CSS?',
     'CSS é uma linguagem de estilização'
 )
 
